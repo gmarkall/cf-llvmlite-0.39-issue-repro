@@ -13,8 +13,6 @@ llvm.initialize_native_asmprinter()  # yes, even this one
 with open('module.ll') as f:
     llvm_ir = f.read()
 
-print(llvm_ir)
-
 
 def create_execution_engine():
     """
